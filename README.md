@@ -9,8 +9,13 @@ Keterangan singkat
 ==================
 - `git init` menciptakan direktori setting pada folder project
 - `git clone` copy project dari repository
+	- contoh untuk cloning project, menggunakan perintah standard `git clone https://github.com/*YOUR-USERNAME/YOUR-REPOSITORY*`
+	```
+	git clone https://github.com/konpro-team/project.git
+	```
 - `git status` melihat status git dari project (penambahan file, perubahan kode, dll)
-- `git add` menambahkan file kedalam assigment untuk dilakukan commit
+- `git add *nama file*` menambahkan file kedalam assigment untuk dilakukan commit
+- `git remote add origin *url git*` menambahkan url git (repository) kedalam project
 - `git commit` mengijinkan assigment untuk bisa dilakukan push
 - `git push` melakukan perubahan terhadap kode atau file yang telah diberikan commit 
 
