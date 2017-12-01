@@ -17,4 +17,4 @@ Keterangan singkat
 Python Learners
 ===============
 - [From Python Course](https://www.python-course.eu/python3_course.php)
-- [Different mutable and immutable object](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
+- [Different of mutable and immutable object](http://radar.oreilly.com/2014/10/python-tuples-immutable-but-potentially-changing.html)
