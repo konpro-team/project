@@ -9,15 +9,31 @@ Keterangan singkat
 ==================
 - `git init` menciptakan direktori setting pada folder project
 - `git clone` copy project dari repository
-	- contoh untuk cloning project, menggunakan perintah standard `git clone https://github.com/*YOUR-USERNAME/YOUR-REPOSITORY*`
+	- contoh untuk cloning project dengan url project `https://github.com/konpro-team/project`
 	```
-	git clone https://github.com/konpro-team/project.git
+	git clone https://github.com/konpro-team/project
 	```
 - `git status` melihat status git dari project (penambahan file, perubahan kode, dll)
-- `git add *nama file*` menambahkan file kedalam assigment untuk dilakukan commit
+- `git add *nama file*` menambahkan file (file yang mengalami perubahan ataupun file baru) kedalam assigment untuk dilakukan commit
+	- contoh untuk menambahkan file `README.md` yang sudah dirubah kodenya kedalam assigment 
+	```
+	git add README.md
+	```
 - `git remote add origin *url git*` menambahkan url git (repository) kedalam project
+	- contoh untuk menambahkan url git kedalam project yang baru saja dibangun pada github. contoh url project pada github `git@github.com:konpro-team/project.git`
+	```
+	git remote add origin git@github.com:konpro-team/project.git
+	```
 - `git commit` mengijinkan assigment untuk bisa dilakukan push
+	- contoh mengijinkan beberapa perubahan atau penambahan file yang telah dimasukan dalam assigment dengan pesan `file README.md sudah dirubah`
+	```
+	git commit -m "file README.md sudah dirubah"
+	```
 - `git push` melakukan perubahan terhadap kode atau file yang telah diberikan commit 
+	- contoh melakukan push pada file yang sudah dilakukan commit
+	```
+	git push origin master
+	```
 
 Python Learners
 ===============
